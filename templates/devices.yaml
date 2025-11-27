@@ -1,0 +1,60 @@
+# Template: Device-level metadata
+# Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/device.md
+
+devices:
+  - device_id: "DEV-001"
+    device_name: "Example Light Sensor"
+    manufacturer: "Company"
+    model: "XYZ-100"
+    serial_number: "SN12345"
+    device_type: "light sensor"
+    measurement_modalities:
+      - "illuminance"
+      - "irradiance"
+    spectral_sensitivity_description: >
+      Brief description.
+    calibration:
+      calibrated: true
+      calibration_date: "2024-10-01"
+      calibration_lab: "Calibration Lab"
+      calibration_report: "docs/calibration_DEV-001.pdf"
+    placement:
+      typical_location: "wrist"
+      notes: "Non-dominant wrist."
+    firmware_version: "1.2.3"
+    config:
+      sampling_frequency_hz: 30
+      dynamic_range: "0.1–100,000 lux"
+      logging_mode: "continuous"
+    documentation_links:
+      - "https://example.com/device"
+ 
+  - device_id: "DEV-002"
+    device_name: "FreeStyle Libre 3"
+    manufacturer: "Abbott"
+    model: "Libre 3"
+    serial_number: "L3-9485721"
+    device_type: "continuous glucose monitor"
+    measurement_modalities:
+      - "interstitial_glucose"
+    spectral_sensitivity_description: null   # Not applicable for CGMs
+    calibration:
+      calibrated: false                     # Factory-calibrated CGM
+      calibration_date: null
+      calibration_lab: null
+      calibration_report: null
+    placement:
+      typical_location: "upper arm"
+      notes: >
+        Worn on the posterior upper arm. Sensor replaced every ~14 days.
+    firmware_version: "1.0.0"  # Replace with actual if known
+    config:
+      sampling_frequency_hz: 0.0167    # One sample per minute (1/60 Hz)
+      dynamic_range: "40–500 mg/dL"
+      logging_mode: "continuous"
+      sensor_lifespan_days: 14
+      warmup_period_minutes: 60
+      transmission: "Bluetooth Low Energy (real-time)"
+    documentation_links:
+      - "https://www.freestyle.abbott/us-en/products/freestyle-libre-3.html"
+      - "https://www.freestyle.abbott/safety-info"
