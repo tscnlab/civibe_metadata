@@ -45,12 +45,14 @@ my-project/
 4. Fill in fields in plain language
 
 5. Refer to the descriptor files for help
+   
    Every template includes a link at the top to its descriptor.
 
-6. Adapt templates freely
+7. Adapt templates freely
+
    Add/remove fields as needed.
 
-7. Where should descriptors live?
+9. Where should descriptors live?
    - If your metadata file is project-specific, keep its descriptor inside your project.
    - If it’s reusable, put the descriptor in a template repository like this one.
 
