@@ -1,0 +1,43 @@
+# Template: Project-level metadata
+# Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/project.md
+
+project_id: "PROJECT-001"
+title: "Example Project Title"
+short_title: "Short Title"
+principal_investigator:
+  name: "Firstname Lastname"
+  email: "pi@example.org"
+  affiliation: "Institute / Lab"
+contributors:
+  - name: "Firstname Lastname"
+    role: "data curation"
+    orcid: "0000-0000-0000-0000"
+    email: "person@example.org"
+    affiliation: "Institute / Lab"
+lab: "tscnlab"
+funding:
+  - funder_name: "Funding Agency"
+    grant_id: "1234-5678"
+project_description: >
+  One-paragraph description understandable by someone outside the project.
+keywords:
+  - "keyword1"
+  - "keyword2"
+license: "CC BY 4.0"
+repository_url: "https://github.com/tscnlab/example"
+data_access:
+  access_level: "restricted"
+  access_details: >
+    Brief explanation of access.
+ethics:
+  approval_required: true
+  approval_id: "ABC/123"
+  approval_body: "Local Ethics Committee"
+timeline:
+  start_date: "2025-01-01"
+  end_date: "2025-12-31"
+  status: "ongoing"
+links:
+  protocol: "https://osf.io/abcd"
+  preregistration: "https://osf.io/efgh"
+  project_website: "https://www.visualdiet.org"
