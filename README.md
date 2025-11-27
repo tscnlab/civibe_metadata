@@ -7,7 +7,7 @@ It includes:
 - inline coding schemes (e.g., for sex, handedness, flags)  
 - guidelines on how to adapt templates or create new ones  
 
-The goal: make metadata **easy**, **consistent**, and **reusable** across lab projects — without adding bureaucracy.
+The goal: make metadata **easy**, **consistent**, and **reusable** across lab projects.
 
 ---
 
