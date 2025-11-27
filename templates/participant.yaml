@@ -1,0 +1,27 @@
+# Template: Participant/sample-level metadata
+# Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/participant.md
+
+participants:
+  - participant_id: "P001"
+    study_id: "PROJECT-001-STUDY"
+    sex: "female"
+    age_years: 27
+    handedness: "right"
+    country_of_residence: "DE"
+    vision_status: "normal"
+    inclusion_status: "included"
+    exclusion_reason: null
+    group_assignment: "intervention"
+    notes: null
+
+  - participant_id: "P002"
+    study_id: "PROJECT-001-STUDY"
+    sex: "male"
+    age_years: 31
+    handedness: "left"
+    country_of_residence: "UK"
+    vision_status: "corrected-to-normal"
+    inclusion_status: "excluded"
+    exclusion_reason: "did not meet inclusion criteria (shift-work schedule)"
+    group_assignment: null
+    notes: "Participant expressed interest in future studies."
