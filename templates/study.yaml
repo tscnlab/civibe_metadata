@@ -1,0 +1,52 @@
+# Template: Study-level metadata
+# Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/study.md
+
+study_id: "PROJECT-001-STUDY"
+study_title: "Study Title"
+project_id: "PROJECT-001"
+study_abstract: >
+  Short summary of study purpose and approach.
+study_type: "experimental"
+
+design:
+  design_keywords:
+    - "keyword1"
+    - "keyword2"
+  primary_outcomes:
+    - "outcome1"
+  secondary_outcomes:
+    - "outcome2"
+
+population:
+  target_population: "healthy adults"
+  inclusion_criteria:
+    - "criterion1"
+  exclusion_criteria:
+    - "criterion2"
+  planned_sample_size: 20
+  actual_sample_size: 18
+
+protocol:
+  version: "1.0"
+  registration_url: "https://osf.io/example"
+  protocol_document: "docs/protocol.pdf"
+  summary: >
+    One- or two-paragraph description.
+
+sessions:
+  - session_id: "baseline"
+    description: "Baseline week."
+  - session_id: "session2"
+    description: "Other session."
+
+data_capture:
+  instruments:
+    - name: "Light Sensor"
+      device_id: "DEV-001"
+    - name: "Actigraphy Device"
+      device_id: "DEV-002"
+  sampling_overview: >
+    Summaries of sampling frequency and timing.
+
+notes: >
+  Additional information about the study.
