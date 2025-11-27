@@ -54,7 +54,7 @@ my-project/
    - If it’s reusable, put the descriptor in a template repository like this one.
 
 ## Contributing
-Pull requests, suggestions, and extension templates are welcome.
+Suggestions, improvements and extensions to templates are welcome.
 
 ## License
 This Metadata Starter Kit is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
