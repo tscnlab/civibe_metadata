@@ -41,12 +41,10 @@ sessions:
 
 data_capture:
   instruments:
-    - name: "Light Sensor"
+    - name: "Light sensor"
       device_id: "DEV-001"
-    - name: "Actigraphy Device"
+    - name: "Continuous glucose monitor"
       device_id: "DEV-002"
-  sampling_overview: >
-    Summaries of sampling frequency and timing.
 
 notes: >
   Additional information about the study.
