@@ -48,9 +48,4 @@ tabular_variables:
         required: true
         description: "Local timestamp"
 
-qc_overview:
-  applied_qc: false
-  description: null
-  qc_documentation: null
-
 notes: null
