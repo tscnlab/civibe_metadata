@@ -59,7 +59,7 @@ Includes instruments and which devices were used.
 Example:
 ```yaml
 instruments:
-  - name: "Light Sensor"
+  - name: "Light sensor"
     device_id: "DEV-001"
-  - name: "Actigraph"
+  - name: "Continuous glucose sensor"
     device_id: "DEV-002"
