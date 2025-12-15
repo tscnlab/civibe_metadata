@@ -2,26 +2,88 @@
 # Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/participant.md
 
 participants:
-  - participant_id: "P001"
-    study_id: "PROJECT-001-STUDY"
-    sex: "female"
-    age_years: 27
-    handedness: "right"
-    country_of_residence: "DE"
-    vision_status: "normal"
-    inclusion_status: "included"
-    exclusion_reason: null
-    group_assignment: "intervention"
-    notes: null
-
-  - participant_id: "P002"
-    study_id: "PROJECT-001-STUDY"
+  - participant_id: "112"
+    study_id: "civibe"
+    study_phase: "pilot"
     sex: "male"
-    age_years: 31
-    handedness: "left"
-    country_of_residence: "UK"
-    vision_status: "corrected-to-normal"
-    inclusion_status: "excluded"
-    exclusion_reason: "did not meet inclusion criteria (shift-work schedule)"
-    group_assignment: null
-    notes: "Participant expressed interest in future studies."
+
+  - participant_id: "113"
+    study_id: "civibe"
+    study_phase: "pilot"
+    sex: "male"
+
+  - participant_id: "114"
+    study_id: "civibe"
+    study_phase: "pilot"
+    sex: "female"
+    
+  - participant_id: "200"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+
+  - participant_id: "201"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+
+  - participant_id: "202"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+  
+  - participant_id: "203"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "female"
+    
+  - participant_id: "204"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "female"
+    
+  - participant_id: "205"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+    
+  - participant_id: "206"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+    
+  - participant_id: "207"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+    
+  - participant_id: "208"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+    
+  - participant_id: "209"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+    
+  - participant_id: "210"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "female"
+    
+  - participant_id: "211"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "female"
+    
+  - participant_id: "212"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "female"
+    
+  - participant_id: "213"
+    study_id: "civibe"
+    study_phase: "main"
+    sex: "male"
+  
